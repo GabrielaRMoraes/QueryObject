@@ -7,7 +7,7 @@ include_once 'TFilter.class.php';
 
 // criar um filtro por data  (string)
 
-$filter = new TFilter('data', '=', '2007-06-02');
+$filter1 = new TFilter('data', '=', '2007-06-02');
 echo $filter1->dump();
 echo "<br>\n";
 
